@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  ConradIOSTest
+
+  Created by Alex da Franca on 15/10/14.
+  Copyright (c) 2014 farbflash. All rights reserved.
+*/
+
+
+/* ---------- Home View ----------- */
+
+/* Loading placeholder text */
+"Loading data..." = "Loading data…";
+
+/* No data message */
+"No countries found." = "No countries found.";
+
+/* Body label: population */
+"Population" = "Population";
+
+/* Body label: rank */
+"Rank" = "Rank";
+
+/* Overview button label */
+"Overview" = "Overview";
+
+/* Details button label */
+"Details" = "Details";

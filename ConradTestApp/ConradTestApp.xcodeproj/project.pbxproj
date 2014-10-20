@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAE8239619F47FD500523192 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE8239519F47FD500523192 /* main.m */; };
+		FAE8239919F47FD500523192 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE8239819F47FD500523192 /* AppDelegate.m */; };
+		FAE8239F19F47FD500523192 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE8239D19F47FD500523192 /* Main.storyboard */; };
+		FAE823A119F47FD500523192 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE823A019F47FD500523192 /* Images.xcassets */; };
+		FAE823A419F47FD500523192 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE823A219F47FD500523192 /* LaunchScreen.xib */; };
+		FAE823B019F47FD500523192 /* ConradTestAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE823AF19F47FD500523192 /* ConradTestAppTests.m */; };
+		FAE823BB19F4849900523192 /* CTA_NavigationContr.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE823BA19F4849900523192 /* CTA_NavigationContr.m */; };
+		FAE823C219F48E6700523192 /* CTA_PushTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE823C119F48E6700523192 /* CTA_PushTransition.m */; };
+		FAE823C819F48FEF00523192 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE823C719F48FEF00523192 /* CoreGraphics.framework */; };
+		FAE823CA19F48FFB00523192 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE823C919F48FFB00523192 /* UIKit.framework */; };
+		FAE823CB19F4900C00523192 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE823C419F48FC800523192 /* Foundation.framework */; };
+		FAE823D119F4927C00523192 /* CTA_PopTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE823D019F4927C00523192 /* CTA_PopTransition.m */; };
+		FAE823D519F4A0F000523192 /* CTA_AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE823D419F4A0F000523192 /* CTA_AsyncImageView.m */; };
+		FAE823D819F4A1F200523192 /* CTA_DataLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE823D719F4A1F200523192 /* CTA_DataLoader.m */; };
+		FAE823DE19F4A43F00523192 /* CTA_HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE823DD19F4A43F00523192 /* CTA_HomeVC.m */; };
+		FAE823E019F4A76A00523192 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAE823DF19F4A76A00523192 /* Localizable.strings */; };
+		FAE823E419F4B07B00523192 /* UIView+AutoLayoutHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE823E319F4B07B00523192 /* UIView+AutoLayoutHelpers.m */; };
+		FAE823E719F4BB7A00523192 /* CTA_DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE823E619F4BB7A00523192 /* CTA_DetailVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAE823AA19F47FD500523192 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAE8238819F47FD500523192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAE8238F19F47FD500523192;
+			remoteInfo = ConradTestApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAE8239019F47FD500523192 /* ConradTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConradTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE8239419F47FD500523192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE8239519F47FD500523192 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAE8239719F47FD500523192 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAE8239819F47FD500523192 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAE8239E19F47FD500523192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAE823A019F47FD500523192 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAE823A319F47FD500523192 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAE823A919F47FD500523192 /* ConradTestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConradTestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAE823AE19F47FD500523192 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE823AF19F47FD500523192 /* ConradTestAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConradTestAppTests.m; sourceTree = "<group>"; };
+		FAE823B919F4849900523192 /* CTA_NavigationContr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTA_NavigationContr.h; sourceTree = "<group>"; };
+		FAE823BA19F4849900523192 /* CTA_NavigationContr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTA_NavigationContr.m; sourceTree = "<group>"; };
+		FAE823C019F48E6700523192 /* CTA_PushTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTA_PushTransition.h; sourceTree = "<group>"; };
+		FAE823C119F48E6700523192 /* CTA_PushTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTA_PushTransition.m; sourceTree = "<group>"; };
+		FAE823C319F48ED700523192 /* ConradTestApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConradTestApp-Prefix.pch"; sourceTree = "<group>"; };
+		FAE823C419F48FC800523192 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAE823C719F48FEF00523192 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAE823C919F48FFB00523192 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAE823CF19F4927C00523192 /* CTA_PopTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTA_PopTransition.h; sourceTree = "<group>"; };
+		FAE823D019F4927C00523192 /* CTA_PopTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTA_PopTransition.m; sourceTree = "<group>"; };
+		FAE823D219F4A09200523192 /* Conrad iOS Test Projekt.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Conrad iOS Test Projekt.pdf"; sourceTree = "<group>"; };
+		FAE823D319F4A0F000523192 /* CTA_AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTA_AsyncImageView.h; sourceTree = "<group>"; };
+		FAE823D419F4A0F000523192 /* CTA_AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTA_AsyncImageView.m; sourceTree = "<group>"; };
+		FAE823D619F4A1F200523192 /* CTA_DataLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTA_DataLoader.h; sourceTree = "<group>"; };
+		FAE823D719F4A1F200523192 /* CTA_DataLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTA_DataLoader.m; sourceTree = "<group>"; };
+		FAE823DC19F4A43F00523192 /* CTA_HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTA_HomeVC.h; sourceTree = "<group>"; };
+		FAE823DD19F4A43F00523192 /* CTA_HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTA_HomeVC.m; sourceTree = "<group>"; };
+		FAE823DF19F4A76A00523192 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		FAE823E219F4B07400523192 /* UIView+AutoLayoutHelpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayoutHelpers.h"; sourceTree = "<group>"; };
+		FAE823E319F4B07B00523192 /* UIView+AutoLayoutHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayoutHelpers.m"; sourceTree = "<group>"; };
+		FAE823E519F4BB7A00523192 /* CTA_DetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTA_DetailVC.h; sourceTree = "<group>"; };
+		FAE823E619F4BB7A00523192 /* CTA_DetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTA_DetailVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAE8238D19F47FD500523192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE823CB19F4900C00523192 /* Foundation.framework in Frameworks */,
+				FAE823CA19F48FFB00523192 /* UIKit.framework in Frameworks */,
+				FAE823C819F48FEF00523192 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE823A619F47FD500523192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAE8238719F47FD500523192 = {
+			isa = PBXGroup;
+			children = (
+				FAE8239219F47FD500523192 /* ConradTestApp */,
+				FAE823AC19F47FD500523192 /* ConradTestAppTests */,
+				FAE823C619F48FD500523192 /* Frameworks */,
+				FAE8239119F47FD500523192 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAE8239119F47FD500523192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAE8239019F47FD500523192 /* ConradTestApp.app */,
+				FAE823A919F47FD500523192 /* ConradTestAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAE8239219F47FD500523192 /* ConradTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				FAE823BE19F484B900523192 /* UI */,
+				FAE823BC19F4849F00523192 /* Classes */,
+				FAE823E119F4B05E00523192 /* Categories */,
+				FAE823BF19F48E3400523192 /* Transitions */,
+				FAE823BD19F484A600523192 /* ViewControllers */,
+				FAE8239719F47FD500523192 /* AppDelegate.h */,
+				FAE8239819F47FD500523192 /* AppDelegate.m */,
+				FAE8239319F47FD500523192 /* Supporting Files */,
+			);
+			path = ConradTestApp;
+			sourceTree = "<group>";
+		};
+		FAE8239319F47FD500523192 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE8239419F47FD500523192 /* Info.plist */,
+				FAE8239519F47FD500523192 /* main.m */,
+				FAE823C319F48ED700523192 /* ConradTestApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAE823AC19F47FD500523192 /* ConradTestAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAE823AF19F47FD500523192 /* ConradTestAppTests.m */,
+				FAE823AD19F47FD500523192 /* Supporting Files */,
+			);
+			path = ConradTestAppTests;
+			sourceTree = "<group>";
+		};
+		FAE823AD19F47FD500523192 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAE823D219F4A09200523192 /* Conrad iOS Test Projekt.pdf */,
+				FAE823AE19F47FD500523192 /* Info.plist */,
+				FAE823DF19F4A76A00523192 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAE823BC19F4849F00523192 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FAE823D619F4A1F200523192 /* CTA_DataLoader.h */,
+				FAE823D719F4A1F200523192 /* CTA_DataLoader.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		FAE823BD19F484A600523192 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FAE823B919F4849900523192 /* CTA_NavigationContr.h */,
+				FAE823BA19F4849900523192 /* CTA_NavigationContr.m */,
+				FAE823DC19F4A43F00523192 /* CTA_HomeVC.h */,
+				FAE823DD19F4A43F00523192 /* CTA_HomeVC.m */,
+				FAE823E519F4BB7A00523192 /* CTA_DetailVC.h */,
+				FAE823E619F4BB7A00523192 /* CTA_DetailVC.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FAE823BE19F484B900523192 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FAE8239D19F47FD500523192 /* Main.storyboard */,
+				FAE823A219F47FD500523192 /* LaunchScreen.xib */,
+				FAE823A019F47FD500523192 /* Images.xcassets */,
+				FAE823D319F4A0F000523192 /* CTA_AsyncImageView.h */,
+				FAE823D419F4A0F000523192 /* CTA_AsyncImageView.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		FAE823BF19F48E3400523192 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				FAE823C019F48E6700523192 /* CTA_PushTransition.h */,
+				FAE823C119F48E6700523192 /* CTA_PushTransition.m */,
+				FAE823CF19F4927C00523192 /* CTA_PopTransition.h */,
+				FAE823D019F4927C00523192 /* CTA_PopTransition.m */,
+			);
+			name = Transitions;
+			sourceTree = "<group>";
+		};
+		FAE823C619F48FD500523192 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAE823C419F48FC800523192 /* Foundation.framework */,
+				FAE823C719F48FEF00523192 /* CoreGraphics.framework */,
+				FAE823C919F48FFB00523192 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAE823E119F4B05E00523192 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				FAE823E219F4B07400523192 /* UIView+AutoLayoutHelpers.h */,
+				FAE823E319F4B07B00523192 /* UIView+AutoLayoutHelpers.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAE8238F19F47FD500523192 /* ConradTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE823B319F47FD500523192 /* Build configuration list for PBXNativeTarget "ConradTestApp" */;
+			buildPhases = (
+				FAE8238C19F47FD500523192 /* Sources */,
+				FAE8238D19F47FD500523192 /* Frameworks */,
+				FAE8238E19F47FD500523192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConradTestApp;
+			productName = ConradTestApp;
+			productReference = FAE8239019F47FD500523192 /* ConradTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAE823A819F47FD500523192 /* ConradTestAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAE823B619F47FD500523192 /* Build configuration list for PBXNativeTarget "ConradTestAppTests" */;
+			buildPhases = (
+				FAE823A519F47FD500523192 /* Sources */,
+				FAE823A619F47FD500523192 /* Frameworks */,
+				FAE823A719F47FD500523192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAE823AB19F47FD500523192 /* PBXTargetDependency */,
+			);
+			name = ConradTestAppTests;
+			productName = ConradTestAppTests;
+			productReference = FAE823A919F47FD500523192 /* ConradTestAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAE8238819F47FD500523192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = farbflash;
+				TargetAttributes = {
+					FAE8238F19F47FD500523192 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					FAE823A819F47FD500523192 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = FAE8238F19F47FD500523192;
+					};
+				};
+			};
+			buildConfigurationList = FAE8238B19F47FD500523192 /* Build configuration list for PBXProject "ConradTestApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAE8238719F47FD500523192;
+			productRefGroup = FAE8239119F47FD500523192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAE8238F19F47FD500523192 /* ConradTestApp */,
+				FAE823A819F47FD500523192 /* ConradTestAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAE8238E19F47FD500523192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE8239F19F47FD500523192 /* Main.storyboard in Resources */,
+				FAE823E019F4A76A00523192 /* Localizable.strings in Resources */,
+				FAE823A419F47FD500523192 /* LaunchScreen.xib in Resources */,
+				FAE823A119F47FD500523192 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE823A719F47FD500523192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAE8238C19F47FD500523192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE823E419F4B07B00523192 /* UIView+AutoLayoutHelpers.m in Sources */,
+				FAE823DE19F4A43F00523192 /* CTA_HomeVC.m in Sources */,
+				FAE823D519F4A0F000523192 /* CTA_AsyncImageView.m in Sources */,
+				FAE8239919F47FD500523192 /* AppDelegate.m in Sources */,
+				FAE823E719F4BB7A00523192 /* CTA_DetailVC.m in Sources */,
+				FAE823D119F4927C00523192 /* CTA_PopTransition.m in Sources */,
+				FAE823C219F48E6700523192 /* CTA_PushTransition.m in Sources */,
+				FAE823BB19F4849900523192 /* CTA_NavigationContr.m in Sources */,
+				FAE8239619F47FD500523192 /* main.m in Sources */,
+				FAE823D819F4A1F200523192 /* CTA_DataLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAE823A519F47FD500523192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE823B019F47FD500523192 /* ConradTestAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAE823AB19F47FD500523192 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAE8238F19F47FD500523192 /* ConradTestApp */;
+			targetProxy = FAE823AA19F47FD500523192 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAE8239D19F47FD500523192 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE8239E19F47FD500523192 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAE823A219F47FD500523192 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAE823A319F47FD500523192 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAE823B119F47FD500523192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAE823B219F47FD500523192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAE823B419F47FD500523192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConradTestApp/ConradTestApp-Prefix.pch";
+				INFOPLIST_FILE = ConradTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAE823B519F47FD500523192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConradTestApp/ConradTestApp-Prefix.pch";
+				INFOPLIST_FILE = ConradTestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAE823B719F47FD500523192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ConradTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConradTestApp.app/ConradTestApp";
+			};
+			name = Debug;
+		};
+		FAE823B819F47FD500523192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ConradTestAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ConradTestApp.app/ConradTestApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAE8238B19F47FD500523192 /* Build configuration list for PBXProject "ConradTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE823B119F47FD500523192 /* Debug */,
+				FAE823B219F47FD500523192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAE823B319F47FD500523192 /* Build configuration list for PBXNativeTarget "ConradTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE823B419F47FD500523192 /* Debug */,
+				FAE823B519F47FD500523192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAE823B619F47FD500523192 /* Build configuration list for PBXNativeTarget "ConradTestAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAE823B719F47FD500523192 /* Debug */,
+				FAE823B819F47FD500523192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAE8238819F47FD500523192 /* Project object */;
+}

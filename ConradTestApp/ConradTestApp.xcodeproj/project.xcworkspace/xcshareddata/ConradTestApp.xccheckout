@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3C051E04-40CA-49C7-A99E-B5850C06C800</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ConradTestApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>35FB23C3D6C9BCCC17DEA3D7D67EA560611E526E</key>
+		<string>ssh://farbflash.de//var/git-repositories/conrad/Testapp</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ConradTestApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>35FB23C3D6C9BCCC17DEA3D7D67EA560611E526E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://farbflash.de//var/git-repositories/conrad/Testapp</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>35FB23C3D6C9BCCC17DEA3D7D67EA560611E526E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>35FB23C3D6C9BCCC17DEA3D7D67EA560611E526E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ConradTestApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
