@@ -36,7 +36,7 @@
     CTA_HomeVC *__weak weakSelf = self;
     self.dataProvider = [[CTA_DataLoader alloc] init];
     [self.dataProvider loadJSONFromRemoteURL:[NSURL URLWithString:@"http://www.androidbegin.com/tutorial/jsonparsetutorial.txt"] callback:^(NSArray *result, NSError *error) {
-        weakSelf.currentCountry = [weakSelf.dataProvider firstEntity];
+        weakSelf.currentCountry = [weakSelf.dataProvider randomEntity];
         [weakSelf configureViewWithEntity:weakSelf.currentCountry];
     }];
     

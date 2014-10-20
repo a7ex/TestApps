@@ -12,20 +12,24 @@
 	<dict>
 		<key>35FB23C3D6C9BCCC17DEA3D7D67EA560611E526E</key>
 		<string>ssh://farbflash.de//var/git-repositories/conrad/Testapp</string>
+		<key>4554CC88C687DA1D7756F2191E79260E8C80F98E</key>
+		<string>https://github.com/a7ex/TestApps.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ConradTestApp.xcodeproj</string>
+	<string>ConradTestApp/ConradTestApp.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>35FB23C3D6C9BCCC17DEA3D7D67EA560611E526E</key>
-		<string>../..</string>
+		<string>../../../../ConradTestApp</string>
+		<key>4554CC88C687DA1D7756F2191E79260E8C80F98E</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://farbflash.de//var/git-repositories/conrad/Testapp</string>
+	<string>https://github.com/a7ex/TestApps.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>35FB23C3D6C9BCCC17DEA3D7D67EA560611E526E</string>
+	<string>4554CC88C687DA1D7756F2191E79260E8C80F98E</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>35FB23C3D6C9BCCC17DEA3D7D67EA560611E526E</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ConradTestApp</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4554CC88C687DA1D7756F2191E79260E8C80F98E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TestApps</string>
 		</dict>
 	</array>
 </dict>
